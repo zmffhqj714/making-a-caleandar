@@ -1,0 +1,19 @@
+
+body{color:cornsilk;
+    background-color: #4e5851;
+}
+
+h3 {
+    color: rgb(230, 78, 78);
+    cursor: pointer;
+}   
+
+h3:hover {
+    color: gray;
+}
+h4:hover {
+    color: rgb(243, 241, 240);
+}
+td{
+ display: inline-block; margin: 3px; padding: 20px 30px; border: 1px solid gray;
+}
