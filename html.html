@@ -5,74 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css.css">
-    <title>my caleandar</title>
+    <title>bon caleandar</title>
 </head>
 <body>
 <div>
     <h1 id="realtime"></h1>
     <h3 id="realday"></h3>
-    <h4 id = ym></h4>
 </div>
-<div>
-    <pre>
-    <table>
-        <tr>
-            <td>일</td>
-            <td>월</td>
-            <td>화</td>
-            <td>수</td>
-            <td>목</td>
-            <td>금</td>
-            <td>토</td>          
-        </tr>
-            <tr>
-            <td>1 </td>
-            <td>2 </td>
-            <td>3 </td>
-            <td>4 </td>
-            <td>5 </td>
-            <td>6 </td>
-            <td>7 </td>
-            </tr>
-            <tr>
-            <td>1 </td>
-            <td>2 </td>
-            <td>3 </td>
-            <td>4 </td>
-            <td>5 </td>
-            <td>6 </td>
-            <td>7 </td>
-            </tr>
-            <tr>
-            <td>1 </td>
-            <td>2 </td>
-            <td>3 </td>
-            <td>4 </td>
-            <td>5 </td>
-            <td>6 </td>
-            <td>7 </td>
-            </tr>
-            <tr>
-            <td>1 </td>
-            <td>2 </td>
-            <td>3 </td>
-            <td>4 </td>
-            <td>5 </td>
-            <td>6 </td>
-            <td>7 </td>
-            </tr>
-            <tr>
-            <td>1 </td>
-            <td>2 </td>
-            <td>3 </td>
-            <td>4 </td>
-            <td>5 </td>
-            <td>6 </td>
-            <td>7 </td>
-            </tr>
-    </table>
+<pre>년월변수                           <input type="button" value="△" onclick="down">  <input type="button" value="▽" onclick="down"><br>
+ <scprit>
+<table width="200" cellpadding="5" cellspacing="2" border="1" align="center" style="table-layout:fixed; word-break:break-all;"></table>>
+요일 테이블부터 만들기 배열에서 가져온값 테아블에 넣어주는 법 js에서 만들기
+<script>
+var dayarray = new Array("일","월","화","수","목","금","토");
+var d28 = 28;
+var d30 = 30;
+var d31 = 31;
+var get = documnet.getElementsByTagName("th");
+document.write(get);
+for (i = 1; i <= dayarray.length; day ++){
+   
+} 
+
+</script>
+
+
+{
+    <tr >
+        <td >day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+    </tr>
+    <tr >
+        <td id = "date" > 1 </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+    </tr>
+    <tr >
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+    </tr>
+    <tr >
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+    </tr>
+    <tr >
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+        <td > day </td>
+    </tr>
+</scprit>
+</table>
+
 </pre>
-</div>
 </body>
 <script src = "./js.js"></script>
 </html>
