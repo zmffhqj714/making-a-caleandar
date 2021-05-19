@@ -1,7 +1,18 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color:cornsilk;
+    background-color: #4e5851;
+}
+
+
 
 body{color:cornsilk;
     background-color: #4e5851;
 }
+
 
 h3 {
     color: rgb(230, 78, 78);
